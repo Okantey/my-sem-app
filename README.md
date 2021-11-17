@@ -1,5 +1,5 @@
-# my ecommerce expo project
+# my e-commerce expo project
 
 # my shopping app
 
-# affordable shoes
+# affordable shoes for men and women
