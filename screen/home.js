@@ -1,5 +1,5 @@
 import React from 'react';
-import { StyleSheet, Text,Image, View, SafeAreaView, TouchableOpacity, FlatList, Dimensions, ScrollView, StatusBar } from 'react-native';
+import { StyleSheet, Text,Image, View, SafeAreaView, TouchableOpacity, FlatList, DiMalesions, ScrollView, StatusBar } from 'react-native';
 
 import styles from './styles.js'
 
@@ -12,7 +12,7 @@ const home =({navigation}) => {
   var [totalCart, updateNumber] = React.useState(0);
   var [totalPrice, updateTotalPrice] = React.useState(0);
 
-    const categories = [' Men','Women', 'Men & Women',];
+    const categories = [' Male','Female', 'Male & Female',];
     const [categoryIndex, setCategoryIndex] = React.useState(0);
 
     const CategoryList = () =>{
